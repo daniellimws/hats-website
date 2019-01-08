@@ -1,7 +1,7 @@
-- name: Lord Idiot
+- name: Lord_Idiot
   img: lordidiot.png
   skills: [pwn]
-  desc: Our captain.
+  desc: 0xdab
   url: lordidiot.github.io
 
 - name: daniellimws
