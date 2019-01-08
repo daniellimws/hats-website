@@ -9,3 +9,8 @@
   skills: [pwn, reverse engineering]
   desc: sleeping member
   url: daniellimws.github.io
+
+- name: ShiRake
+  img: shirake.png
+  skills: [web]
+  desc: "i like cookies" member
