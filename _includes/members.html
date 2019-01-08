@@ -1,0 +1,19 @@
+<table>
+    <tbody>
+        {% for member in site.data.members %}
+        <tr>
+            <td style="text-align: center"><img src="static/img/members/{{ member.img }}" alt="" height=130px/></td>
+            <td style="text-align: left; padding-left: 32px">
+                <h3><strong>{{ member.name }}</strong></h3>
+                {% for skill in member.skills %}
+                <code>{{ skill }}</code>
+                {% endfor %}
+                <h4>{{ member.desc }}</h4>
+                <a href="{{ member.url }}">{{ member.url }}</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+<br/>
+<br/>

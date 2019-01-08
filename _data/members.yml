@@ -1,0 +1,11 @@
+- name: Lord Idiot
+  img: lordidiot.png
+  skills: [pwn]
+  desc: Our captain.
+  url: lordidiot.github.io
+
+- name: daniellimws
+  img: daniellimws.png
+  skills: [pwn, reverse engineering]
+  desc: sleeping member
+  url: daniellimws.github.io

@@ -4,19 +4,28 @@ title: Blog
 ---
 
 <div class="container">
-<h3>Archive</h3>
+<h3>Blog</h3>
   <div class="panel panel-default">
     <div class="panel-body">
 		{% for post in site.posts %}
 			<div class="row">
-				 <div class="col-sm-4 col-md-4 col-lg-4">
+				 <div class="col-sm-3 col-md-3 col-lg-3">
 					 <h5 style="text-align: right">
 					 	{{ post.date | date: "%B %e, %Y" }}
 					 </h5>
 				 </div>
-				 <div class="col-sm-8 col-md-8 col-lg-8">
+				 <div class="col-sm-6 col-md-6 col-lg-6">
 					 <h5 style="text-align: left">
-					 	<strong><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></strong>
+							{% if post.external_url %}
+								<strong><a href="{{ post.external_url }}">{{ post.title }}</a></strong>
+							{% else %}
+								<strong><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></strong>
+						 	{% endif %}
+					 </h5>
+				 </div>
+				 <div class="col-sm-3 col-md-3 col-lg-3">
+					 <h5 style="text-align: left">
+					 	by <strong>{{ post.author }}</strong>
 					 </h5>
 				 </div>
 			</div>
