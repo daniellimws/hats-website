@@ -13,4 +13,5 @@
 - name: ShiRake
   img: shirake.png
   skills: [web]
-  desc: "i like cookies" member
+  desc: "\"i like cookies\" member"
+  url: test

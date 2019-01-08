@@ -8,8 +8,12 @@
                 {% for skill in member.skills %}
                 <code>{{ skill }}</code>
                 {% endfor %}
+                {% if member.desc %}
                 <h4>{{ member.desc }}</h4>
+                {% endif %}
+                {% if member.url %}
                 <a href="{{ member.url }}">{{ member.url }}</a>
+                {% endif %}
             </td>
         </tr>
         {% endfor %}
