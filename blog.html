@@ -19,7 +19,7 @@ title: Blog
 							{% if post.external_url %}
 								<strong><a href="{{ post.external_url }}">{{ post.title }}</a></strong>
 							{% else %}
-								<strong><a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a></strong>
+								<strong><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></strong>
 						 	{% endif %}
 					 </h5>
 				 </div>
