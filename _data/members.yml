@@ -1,0 +1,16 @@
+- name: Lord_Idiot
+  img: lordidiot.png
+  skills: [pwn]
+  desc: 0xdab
+  url: lordidiot.github.io
+
+- name: daniellimws
+  img: daniellimws.png
+  skills: [pwn, reverse engineering]
+  desc: sleeping member
+  url: daniellimws.github.io
+
+- name: ShiRake
+  img: shirake.png
+  skills: [web]
+  desc: "\"i like cookies\" member"
