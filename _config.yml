@@ -11,8 +11,8 @@ safe: true
 
 
 # edit here to achieve your personal greatness
-url: http://username.github.io/
-baseurl: /
+url: http://hats.sg
+baseurl: ""
 title: HATS SG
 author: HATS SG
 description: HATS SG CTF Team
