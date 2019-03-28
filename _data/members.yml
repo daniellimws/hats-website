@@ -14,3 +14,9 @@
   img: shirake.png
   skills: [web]
   desc: "\"i like cookies\" member"
+
+- name: quanyang
+  img: 
+  skills: [web, reverse engineering, being useless]
+  desc: <marquee>weeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee</marquee>
+  url: quanyang.github.io
