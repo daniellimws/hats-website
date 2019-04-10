@@ -2,7 +2,7 @@
 <h3>Achievements</h3>
   <div class="panel panel-default">
     <div class="panel-body">
-		{% for year_hash in site.data.events %}
+		{% for year_hash in site.data.events reversed %}
 		{% assign year = year_hash[1] %}
 			<h3><strong>{{ year.year }}</strong></h3>
 			<div class="row" style="border-top: 1px solid black; border-bottom: 1px solid black">
