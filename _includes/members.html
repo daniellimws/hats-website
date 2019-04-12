@@ -14,11 +14,7 @@
                     <h4>{{ member.desc }}</h4>
                     {% endif %}
                     {% if member.url %}
-                        {% if member.url contains "http" %}
-                            <a href="{{ member.url }}">{{ member.url }}</a>
-                        {% else %}
-                            <a href="https://{{ member.url }}">{{ member.url }}</a>
-                        {% endif %}
+                        <a href="{{ member.url }}">{{ member.url }}</a>
                     {% endif %}
                 </td>
             </tr>
