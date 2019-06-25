@@ -22,7 +22,6 @@ body {
 /* About
 -------------------------------------------------- */
 #about {
-  padding-top: 10%;
 }
 
 /* Navbar
@@ -147,6 +146,7 @@ body {
 }
 .avatar {
   padding-top: 5%;
+  padding-bottom: 5%;
 }
 .blog-post{
   padding-top: 15px;
