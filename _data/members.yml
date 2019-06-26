@@ -20,3 +20,9 @@
   skills: [web, reverse engineering, being useless]
   desc: <marquee>weeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee</marquee>
   url: https://quanyang.github.io
+
+- name: tcode2k16 (alanc)
+  img: tcode2k16.png
+  skills: [pwn, reverse engineering, misc]
+  desc: 68747470733A2F2F7777772E796F75747562652E636F6D2F77617463683F763D6451773477395767586351
+  url: https://tcode2k16.github.io/blog/
