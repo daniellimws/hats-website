@@ -194,3 +194,56 @@ div.footer{
 table td {
   padding: 16px 0px 16px 8px
 }
+
+/* Resources
+---------------------------------------------------- */
+.resource-category {
+  text-align: left;
+  font-size: 16px;
+  padding-bottom: 6px;
+  cursor: pointer;
+
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  transition: all 0.1s;
+}
+
+.resource-category:hover {
+  font-size: 18px;
+}
+
+#resources-category-col {
+  border-right: 1px solid #ccc;
+}
+
+.resource {
+  text-align: left;
+  background: #f8f8f8;
+  padding: 18px;
+  border-radius: 3px;
+  margin-bottom: 12px;
+  margin-left: 32px;
+}
+
+.resource-tags {
+  margin-top: 12px;
+}
+
+.resource-tags code {
+  margin-right: 10px;
+}
+
+.resource-link {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.resource-desc {
+  margin-top: 16px;
+  font-size: 16px;
+}
+
+.resource-category-selected {
+  font-weight: bold;
+}
